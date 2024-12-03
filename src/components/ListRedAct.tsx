@@ -1,5 +1,5 @@
 import { useReducer, useState, useEffect } from "react";
-import { ListReducer } from "./ListReducer";
+import { ListReducer } from "@/Utils/ListReducer";
 import ArrowCircleIcon from "@/images/ArrowCircleIcon";
 import CheckmarkCircleIcon from "@/images/CheckMarkIcon";
 import EditCircleIcon from "@/images/PenCircleIcon";
