@@ -2,7 +2,7 @@
 
 import { FooterPage } from "@/components/footer";
 import { HeaderPage } from "@/components/HeaderPage";
-import { ListRedAct } from "@/Utils/ListRedAct";
+import { ListRedAct } from "@/components/ListRedAct";
 
  export default function home () {
     return(
