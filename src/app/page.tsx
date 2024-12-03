@@ -1,9 +1,7 @@
 'use client'
 
-import { AddItens } from "@/components/additens";
 import { FooterPage } from "@/components/footer";
 import { HeaderPage } from "@/components/HeaderPage";
-import { ListArea } from "@/components/ListArea";
 import { ListRedAct } from "@/Utils/ListRedAct";
 
  export default function home () {
