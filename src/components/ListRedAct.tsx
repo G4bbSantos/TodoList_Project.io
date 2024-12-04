@@ -90,7 +90,7 @@ export const ListRedAct = () => {
       <div className="w-full py-6 flex gap-2 justify-center">
         <input
           type="text"
-          className="w-6/12 px-2 py-1 text-lg rounded-lg text-black"
+          className="w-9/12 sm:w-6/12 px-2 py-1 text-lg rounded-lg text-black"
           placeholder="Digite algo..."
           value={addField}
           onChange={(e) => setAddField(e.target.value)}
@@ -104,7 +104,7 @@ export const ListRedAct = () => {
         </div>
       </div>
       <div className="w-full flex justify-center items-center">
-        <div className="w-11/12 sm:w-8/12 min-h-20 bg-zinc-700 border border-black rounded-xl flex flex-col items-center">
+        <div className="w-full sm:w-8/12 min-h-28 bg-zinc-700 border border-black sm:rounded-xl flex flex-col justify-between items-center">
           <ul className="flex flex-col w-full px-2">
             {list.map((item) => (
               <li
@@ -149,7 +149,7 @@ export const ListRedAct = () => {
               </li>
             ))}
           </ul>
-          <div className="font-light text-gray-400 border-t flex justify-between mt-2 w-full px-4 py-2">
+          <div className="font-light text-gray-400 border-t flex justify-between mt-2 w-full px-4 py-2 flex-col sm:flex-row">
             <p>Total de tarefas: {totalTasks}</p>
             <p>Total de tarefas feitas: {completedTasks}</p>
             <p>Total de tarefas a fazer: {pendingTasks}</p>

@@ -1,8 +1,8 @@
 export const FooterPage = () => {
     return (
-        <footer className="w-full min-h-12 bg-zinc-900/40 border-t border-black px-3 py-1 flex justify-around items-center">
+        <footer className="w-full min-h-12 bg-zinc-900/40 border-t border-black px-3 py-1 flex justify-around items-center flex-col sm:flex-row gap-2">
             <div>
-                Desenvolvido por Gabriel Fernando
+                Feito por Gabriel Fernando
             </div>
             <div className="flex gap-3">
                 <a href="https://github.com/G4bbSantos" className="hover:text-slate-300">Github</a>
